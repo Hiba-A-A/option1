@@ -1,0 +1,291 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<title>Email Signature – Emma Gumble</title>
+<style>
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+    background: #e8e8e8;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+  }
+
+  /* ── OUTER CARD ── */
+  .signature {
+    background: #ffffff;
+    width: 980px;
+    padding: 28px 28px 22px 28px;
+    border-radius: 8px;
+  }
+
+  /* ── TOP ROW ── */
+  .top-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+
+  .profile-block {
+    display: flex;
+    align-items: center;
+  }
+
+  /* Circle avatar */
+  .avatar {
+    width: 98px;
+    height: 98px;
+    border-radius: 50%;
+    overflow: hidden;
+    flex-shrink: 0;
+    background: #c8cfd4;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+  }
+
+  .avatar svg { display: block; }
+
+  .divider-v {
+    width: 1px;
+    height: 78px;
+    background: #cccccc;
+    margin: 0 40px;
+    flex-shrink: 0;
+  }
+
+
+  .name-block h1 {
+        font-family: 'Barlow', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+
+    font-size: 37px;
+    font-weight: 500;
+    color: #111111;
+    letter-spacing: -0.5px;
+    line-height: 1.1;
+  }
+
+  .name-block .title {
+    font-size: 14px;
+    color: #555555;
+    margin-top: 4px;
+    font-weight: 400;
+  }
+
+  /* CARMA logo */
+  .carma-logo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    flex-shrink: 0;
+  }
+
+  .carma-wordmark {
+    font-size: 11.5px;
+    font-weight: 700;
+    letter-spacing: 3.5px;
+    color: #c8973a;
+  }
+
+  /* ── BOTTOM ROW – two boxes ── */
+  .bottom-row {
+    display: flex;
+    align-items: stretch;
+    gap: 12px;
+    height:100px;
+  }
+
+  /* Box 1 – contact + offices */
+  .box {
+    background: #f7f7f9;
+    border-radius: 6px;
+    display: flex;
+    align-items: stretch;
+    padding: 14px 18px;
+  }
+
+  .box-main {
+    flex: 1;
+  }
+
+
+  /* contact items */
+  .contact-col {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+  }
+
+  .contact-item {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 12.5px;
+    color: #333333;
+    white-space: nowrap;
+  }
+
+  .contact-item svg {
+    flex-shrink: 0;
+    color: #444;
+  }
+
+  .box-sep {
+    width: 1px;
+    background: #d4d4d4;
+    margin: 0 18px;
+    align-self: stretch;
+  }
+
+  /* Offices */
+  .offices-col {
+    display: flex;
+    flex-direction: column;
+    gap: 7px;
+    justify-content: center;
+  }
+
+  .office-row {
+    font-size: 12.5px;
+    color: #4E4A4A;
+    white-space: nowrap;
+    
+    gap: 5px;
+  }
+
+  .office-name {
+    font-weight: 700;
+    min-width: 66px;
+    color:#111
+  }
+
+  /* Box 2 – award */
+  .box-award {
+    background: #f7f7f9;
+    background-position: 0%;
+    border-radius: 6px;
+    display: flex;
+    align-items: center;
+    gap: 14px;
+    padding: 14px 20px;
+    flex-shrink: 0;
+  }
+
+  .box-award img {
+    width: 100%;
+    height: calc(100% + 32px);
+    object-fit: cover;
+    object-position: center bottom;
+    display: block;
+    border-radius: 10px;
+    position: relative;
+    top: -28px;
+    margin-bottom: -28px;
+}
+
+  .award-text {
+    font-size: 12.5px;
+    color: #333;
+    line-height: 1.5;
+    white-space: nowrap;
+  }
+
+  .award-text strong {
+    font-size: 18px;
+    font-weight: 800;
+    color: #111;
+    display: block;
+    line-height: 1.2;
+    margin-top: 1px;
+  }
+</style>
+</head>
+<body>
+
+<div class="signature">
+
+  <!-- TOP ROW -->
+  <div class="top-row">
+
+    <div class="profile-block">
+      <div class="avatar">
+        <svg width="78" height="82" viewBox="0 0 78 82" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <circle cx="39" cy="28" r="18" fill="#9aa4ab"></circle>
+          <ellipse cx="39" cy="76" rx="34" ry="20" fill="#9aa4ab"></ellipse>
+        </svg>
+      </div>
+
+      <div class="divider-v"></div>
+
+      <div class="name-block">
+        <h1>Emma Gumble</h1>
+        <p class="title">Chief of Staff - Finance</p>
+      </div>
+    </div>
+
+    <!-- CARMA dotted-C logo -->
+    <div class="carma-logo">
+    
+          <img style="height:60px" src="logo.png" alt="CARMA Logo">
+            
+    </div>
+
+  </div>
+
+
+  <!-- BOTTOM ROW – two gray boxes -->
+  <div class="bottom-row">
+
+    <!-- BOX 1: email/web + phone offices -->
+    <div class="box box-main">
+
+      <div class="contact-col">
+        <div class="contact-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+            <rect x="2" y="4" width="20" height="16" rx="2"></rect>
+            <polyline points="2,4 12,13 22,4"></polyline>
+          </svg>
+          emma.gumble@carma.com
+        </div>
+        <div class="contact-item">
+          <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round">
+            <circle cx="12" cy="12" r="10"></circle>
+            <line x1="2" y1="12" x2="22" y2="12"></line>
+            <path d="M12 2a15.3 15.3 0 0 1 4 10 15.3 15.3 0 0 1-4 10 15.3 15.3 0 0 1-4-10 15.3 15.3 0 0 1 4-10z"></path>
+          </svg>
+          www.carma.com
+        </div>
+      </div>
+
+      <div class="box-sep"></div>
+
+      <div class="offices-col" style="margin-right: 20px;">
+        <div class="office-row"><span class="office-name">London</span>  (+) 44 (0) 20 8877 3314</div>
+        <div class="office-row"><span class="office-name">Dubai</span>  (+) 971 4 356 4100</div>
+      </div>
+
+      <div class="offices-col">
+        <div class="office-row"><span class="office-name">Riyadh</span>  (+) 966 114220204</div>
+        <div class="office-row"><span class="office-name">Singapore</span>  (+65) 6388 5838</div>
+      </div>
+
+    </div>
+
+    <!-- BOX 2: trophy award -->
+    <div class="box-award">
+<div  style="height:100px"> <img style="height:100px" src="trophy.PNG" alt="Award Image"> </div>
+
+ 
+    </div>
+
+  </div>
+
+</div>
+
+
+</body></html>
